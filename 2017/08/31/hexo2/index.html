@@ -3,15 +3,20 @@
 <head>
   <meta charset="utf-8">
   
-  <title>GZHermit</title>
+  <title>配置(2) hexo deploy 无需输入用户名和密码 | GZHermit</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="GZHermit">
-<meta property="og:url" content="http://gzhermit.com/index.html">
+  <meta name="description" content="每次部署执行hexo deploy都需要输入用户名和密码，很烦 解决方法： ###1.配置好ssh key在终端（Terminal）输入：   ssh-keygen -t rsa -C “Github的注册邮箱地址”  全部Enter默认即可。秘钥生成完会得到两个文件id_rsa和id_rsa.pub，路径位于~/.ssh/用vim打开id_rsa.pub复制所有内容，然后进入 https://g">
+<meta name="keywords" content="环境配置 hexo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="配置(2) hexo deploy 无需输入用户名和密码">
+<meta property="og:url" content="http://gzhermit.com/2017/08/31/hexo2/index.html">
 <meta property="og:site_name" content="GZHermit">
+<meta property="og:description" content="每次部署执行hexo deploy都需要输入用户名和密码，很烦 解决方法： ###1.配置好ssh key在终端（Terminal）输入：   ssh-keygen -t rsa -C “Github的注册邮箱地址”  全部Enter默认即可。秘钥生成完会得到两个文件id_rsa和id_rsa.pub，路径位于~/.ssh/用vim打开id_rsa.pub复制所有内容，然后进入 https://g">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2017-08-31T04:09:48.948Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="GZHermit">
+<meta name="twitter:title" content="配置(2) hexo deploy 无需输入用户名和密码">
+<meta name="twitter:description" content="每次部署执行hexo deploy都需要输入用户名和密码，很烦 解决方法： ###1.配置好ssh key在终端（Terminal）输入：   ssh-keygen -t rsa -C “Github的注册邮箱地址”  全部Enter默认即可。秘钥生成完会得到两个文件id_rsa和id_rsa.pub，路径位于~/.ssh/用vim打开id_rsa.pub复制所有内容，然后进入 https://g">
   
     <link rel="alternate" href="/atom.xml" title="GZHermit" type="application/atom+xml">
   
@@ -64,9 +69,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-hexo2" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-hexo2" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2017/08/31/hexo2/" class="article-date">
   <time datetime="2017-08-31T03:57:32.000Z" itemprop="datePublished">2017-08-31</time>
@@ -79,8 +82,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/08/31/hexo2/">配置(2) hexo deploy 无需输入用户名和密码</a>
+    <h1 class="article-title" itemprop="name">
+      配置(2) hexo deploy 无需输入用户名和密码
     </h1>
   
 
@@ -111,94 +114,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-hexo-deploy" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/08/31/hexo-deploy/" class="article-date">
-  <time datetime="2017-08-31T03:35:21.000Z" itemprop="datePublished">2017-08-31</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/08/31/hexo-deploy/">配置(1) hexo deploy 出现 ERROR Deployer not found:Git</a>
-    </h1>
+    <a href="/2017/08/31/hexo-deploy/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">配置(1) hexo deploy 出现 ERROR Deployer not found:Git</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>运行命令：</p>
-<blockquote>
-<p><code>npm install --save hexo-deployer-git</code>  </p>
-</blockquote>
-<p>然后继续运行：</p>
-<blockquote>
-<p><code>git config --global user.email &quot;you@example.com&quot;</code><br><code>git config --global user.name &quot;Your Name&quot;</code>  </p>
-</blockquote>
-<p>即可</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://gzhermit.com/2017/08/31/hexo-deploy/" data-id="cj6zxmghs0000bjstjaezt590" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/环境配置/">环境配置</a></li></ul>
-
-    </footer>
-  </div>
   
 </article>
-
-
-  
-    <article id="post-Hello-World" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/08/31/Hello-World/" class="article-date">
-  <time datetime="2017-08-31T03:11:06.000Z" itemprop="datePublished">2017-08-31</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/08/31/Hello-World/">Hello World!</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Hello World！这是我的第一篇github博客！</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://gzhermit.com/2017/08/31/Hello-World/" data-id="cj6zxmghx0001bjst90h8bpve" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
 
 </section>
         
